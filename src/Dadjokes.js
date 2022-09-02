@@ -83,6 +83,7 @@ class Dadjokes extends Component {
           <button className="JokeList-getmore" onClick={this.handleClick}>
             New Jokes
           </button>
+          <h4>Created By Zayn Saeed</h4>
         </div>
         <div className="JokeList-jokes" id="style-10">
           {jokeSorted.map((j) => {
